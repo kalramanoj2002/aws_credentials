@@ -1,0 +1,15 @@
+{
+  "name": "expose_aws_credentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.714.0",
+    "fastify": "^3.0.3"
+  }
+}

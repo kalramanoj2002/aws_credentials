@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: .
+    environment: 
+      - "HOME=/home"
+    ports:
+      - "4401:3000"
+    volumes: 
+      - $HOME/.aws:/home/.aws
