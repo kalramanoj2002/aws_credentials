@@ -3,7 +3,7 @@
 ## What is this?
 expose updated aws credentials as an api, which can be used by postman for accessing aws resources. 
 
-You can start the service in the container with command
+After you clone the repo locally, you can start the service in the container with command
 
 ```
 docker-compose up -d
@@ -23,3 +23,5 @@ pm.sendRequest('http://localhost:4401/aws', function (err, res) {
 ```
 
 These variables can be used in the Authorization tab.
+
+![alt text](https://github.com/kalramanoj2002/aws_credentials/blob/master/postman_authorization.png?raw=true)

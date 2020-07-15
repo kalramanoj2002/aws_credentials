@@ -5,6 +5,7 @@ services:
       context: .
     environment: 
       - "HOME=/home"
+    restart: always
     ports:
       - "4401:3000"
     volumes: 
